@@ -12,7 +12,7 @@ The transmitter component sends text OR file to a listening receiver. The receiv
 
 First, you can't defend against attacks without knowing how they work and their limitations. Intellectual honesty and genuine curosity is important and awesome.
 
-Second, if you understand how this works, you also can see that the risk of anyone actually using it in the field is low. Someone needs compromise your computer and then install the receiver on it, without you noticing AND be physically close enough to the computer for it to listen and catch the audio to even work. Clearly this is for educational purposes and it's all built using [open source software that](https://github.com/ggerganov/ggwave) has been around for years.
+Second, if you understand how this works, you also can see that the risk of anyone actually using it in the field is low. Someone needs compromise your computer and then install the receiver on it, without you noticing AND be physically close enough to the computer for it to listen and catch the audio to even work. Clearly this is for educational purposes, built from example code and it's all using [open source software that](https://github.com/ggerganov/ggwave) has been around for years.
 
 Third, you're much more likely to get hacked by using Windows or an outdated browser, having a false sense of security by assuming that using a VPN secures your PC or clicking on links from DMs. This is just more of a party trick than anything else.
 
