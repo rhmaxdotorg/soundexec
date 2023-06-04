@@ -64,5 +64,15 @@ If you want to use the clipboard feature (default), you don't need to change any
 
 And run the transmitter. On Windows, `python soundexec-send.py test` and on Linux `./soundexec-send.py test` for example.
 
+# FAQ
+
+**Is this an exploit?**
+
+No, it's just a way to transmit data over sound waves from one computer to another. Your computer needs to run the receiever and the other computer be physically close enough to hear and interpret the sounds for it to even to work. Again, this is educational, not super practical but yes, it still feels like magic.
+
+**Where can I find more information on how this works?**
+
+https://github.com/ggerganov/ggwave#ggwave
+
 # Disclaimer
 All the code and info in this repo is for EDUCATIONAL PURPOSES ONLY. Author bears no responsibility or liability for how it is used and do not use it for harm or bad stuff. Use to learn how technology and security works to assess your risk profile and protect yourself.
