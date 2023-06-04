@@ -24,7 +24,7 @@ Third, you're much more likely to get hacked by using Windows or an outdated bro
 # Setup and Dependencies
 
 ## Windows
-- Install python3 and Build Tools for Visual Studio
+- Install python3 and [Build Tools for Visual Studio](https://visualstudio.microsoft.com/downloads/)
 - Install python packages
 
 `$ pip install ggwave pyaudio pyperclip`
@@ -43,16 +43,22 @@ If you see "Failed to capture sound data" then move closer to the receiver or pl
 
 `$ pip install ggwave pyaudio pyperclip`
 
-# Usage
+# How to use it
+**Step 1**
+
 After installing all the dependencies, put the transmitter (soundexec-send.py) on a computer running Windows or Linux (Mac untested) and the receiver (soundexec-recv.py) on another computer.
 
 Ensure speakers and microphones are working.
 
-Then use command line to run the receiver FIRST.
+**Step 2**
+
+Use command line terminal to run the receiver FIRST.
 
 On Windows, `python soundexec-recv.py` and on Linux `./soundexec-recv.py` and if it started successfully, it will say *listening...* along with some debug messages.
 
-Now edit the transmitter code to pick an option: copy the text/file to clipboard OR execute a command.
+**Step 3**
+
+Edit the transmitter code to pick an option: copy the text/file to clipboard OR execute a command.
 
 ```
 # receiver config
@@ -62,13 +68,19 @@ CLIPBOARD = True
 
 If you want to use the clipboard feature (default), you don't need to change anything. However, if you want to execute a command, change EXECUTE_CMD from False to True and CLIPBOARD from True to False.
 
+**Step 4**
+
 And run the transmitter. On Windows, `python soundexec-send.py test` and on Linux `./soundexec-send.py test` for example.
+
+If you chose to copy send text to the receiver's clipboard, go paste something into notepad or a browser, you should see what the transmitter sent. If you chose to execute a command (and it was a valid OS command), such as "calc" on windows, you should see a calculator pop up on the receiever's screen. Neat huh!
 
 # FAQ
 
 **Is this an exploit?**
 
-No, it's just a way to transmit data over sound waves from one computer to another. Your computer needs to run the receiever and the other computer be physically close enough to hear and interpret the sounds for it to even to work. Again, this is educational, not super practical but yes, it still feels like magic.
+No, it's just a way to transmit data over sound waves from one computer to another. Your computer needs to run the receiever and the other computer be physically close enough to hear and interpret the sounds for it to even to work. The result is no different than using any other file or data transfer protocol, but it has even more limitations.
+
+Again, this is educational, not super practical but yes, it still feels like magic.
 
 **Where can I find more information on how this works?**
 
