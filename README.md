@@ -4,9 +4,12 @@ SoundExec is a tool for executing commands, file transfer and clipboard manipula
 It's important to understand the risks, especially if you believe you have an "air-gapped" machine, but it can still send/recv audio. This is a fun little experiment in side channels and awareness for "audio-gapping". Understand that this is a basic script that can be used to demonstrate file transfer, sliding in the copy/paste clipboard buffer and remote control of a machine that has already been compromised, but is without internet access.
 
 # How it works
-There are two components: transmitter (send) and receiver. 
 
-The transmitter component sends text OR file to a listening receiver. The receiver component then executes it as a command OR puts it in the clipboard buffer. The transmitter can be on one computer across the room from another computer that is running the receiver. This works as long as the receiver has a microphone, the transmitter has a speaker that is loud enough for the receiver to clearly hear and parse the data.
+![soundexec-diagram](https://github.com/rhmaxdotorg/soundexec/assets/100790377/949582ca-5d63-4388-99da-c46aedde9b1e)
+
+There are **two components**, transmitter (send) and receiver. 
+
+The **transmitter** component sends text OR file to a listening receiver. The **receiver** component then executes it as a command OR puts it in the clipboard buffer. The transmitter can be on one computer across the room from another computer that is running the receiver. This works as long as the receiver has a microphone, the transmitter has a speaker that is loud enough for the receiver to clearly hear and parse the data.
 
 # Why do this research
 
