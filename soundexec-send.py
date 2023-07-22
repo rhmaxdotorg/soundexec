@@ -18,7 +18,7 @@ import pyaudio
 ARGS = 1
 
 PROTOCOL_ID = 1
-VOLUME = 20
+VOLUME = 100 # max volume
 
 CHANNELS = 1
 RATE = 48000
