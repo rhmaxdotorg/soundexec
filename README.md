@@ -32,7 +32,7 @@ Third, you're much more likely to get hacked by using Windows or an outdated bro
 
 `$ pip install ggwave pyaudio pyperclip`
 
-Note: it appears now that ggwave is failing to properly build on Windows and it's unclear if we have a solution or workaround. But Linux has still been working fine.
+Note: it appears now that ggwave is failing to properly build on Windows and it's unclear if we have a solution or workaround. But Linux has still been working fine. Fixes or further guidance welcome via testing and code updates via pull requests!
 
 ### Debugging
 If you get "Unanticipated host error", it usually means you need to allow microphone access. Settings -> Microphone -> Make sure it's enabled and especially "Allow desktop apps to access your microphone" is On.
