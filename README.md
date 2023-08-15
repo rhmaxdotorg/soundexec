@@ -5,7 +5,7 @@ It's important to understand the risks, especially if you believe you have an "a
 
 # How it works
 
-![soundexec-diagram](https://github.com/rhmaxdotorg/soundexec/assets/100790377/949582ca-5d63-4388-99da-c46aedde9b1e)
+![soundexec-diagram](https://github.com/rhmaxdotorg/soundexec/assets/100790377/640aa69b-da25-4dd9-8886-cf2d3c4d19e6)
 
 There are **two components**, transmitter (send) and receiver. 
 
